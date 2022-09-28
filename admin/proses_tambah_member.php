@@ -12,7 +12,7 @@ if ($_POST) {
   } elseif (empty($tlp)) {
     echo "<script>alert('nomor telepon tidak boleh kosong');location.href='tambah_member.php';</script>";
   } else {
-    include "connect.php";
+    include "../connect.php";
     $insert = mysqli_query($conn, "insert into member (nama, alamat, jenis_kelamin, tlp ) value ('" . $nama . "','" . $alamat . "','" . $jenis_kelamin . "', '" . $tlp . "')") or die(mysqli_error($conn));
     if ($insert) {
       echo "<script>alert('Sukses menambahkan member');location.href='tambah_member.php';</script>";
