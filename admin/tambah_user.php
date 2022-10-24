@@ -17,8 +17,8 @@
     <h1>Tambah User</h1>
     <form action="proses_tambah_user.php" method="post">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" required>
+        <label for="nama_user" class="form-label">Nama</label>
+        <input type="text" name="nama_user" class="form-control" required>
       </div>
       <div class="mb-3">
         <label for="username" class="form-label">username</label>

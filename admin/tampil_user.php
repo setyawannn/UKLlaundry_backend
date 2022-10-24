@@ -32,7 +32,7 @@
           $no++; ?>
           <tr>
             <td><?= $no ?></td>
-            <td><?= $data_user['nama'] ?></td>
+            <td><?= $data_user['nama_user'] ?></td>
             <td><?= $data_user['username'] ?></td>
             <td><?= $data_user['role'] ?></td>
             <td>

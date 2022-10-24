@@ -22,8 +22,8 @@
     <form action="proses_ubah_member.php" method="post">
       <input type="hidden" name="id_member" value="<?= $dt_member['id_member'] ?> ">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" value="<?= $dt_member['nama'] ?>" required>
+        <label for="nama_member" class="form-label">Nama</label>
+        <input type="text" name="nama_member" class="form-control" value="<?= $dt_member['nama_member'] ?>" required>
       </div>
       <div class="mb-3">
         <label for="alamat" class="form-label">alamat</label>

@@ -22,8 +22,8 @@
     <form action="proses_ubah_outlet.php" method="post">
       <input type="hidden" name="id_outlet" value="<?= $dt_outlet['id_outlet'] ?> ">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" value="<?= $dt_outlet['nama'] ?>" required>
+        <label for="nama_outlet" class="form-label">Nama</label>
+        <input type="text" name="nama_outlet" class="form-control" value="<?= $dt_outlet['nama_outlet'] ?>" required>
       </div>
       <div class="mb-3">
         <label for="alamat" class="form-label">alamat</label>

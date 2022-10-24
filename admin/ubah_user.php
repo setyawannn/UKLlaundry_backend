@@ -22,8 +22,8 @@
     <form action="proses_ubah_user.php" method="post">
       <input type="hidden" name="id_user" value="<?= $dt_user['id_user'] ?> ">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" value="<?= $dt_user['nama'] ?>" required>
+        <label for="nama_user" class="form-label">Nama</label>
+        <input type="text" name="nama_user" class="form-control" value="<?= $dt_user['nama_user'] ?>" required>
       </div>
       <div class="mb-3">
         <label for="username" class="form-label">username</label>

@@ -74,6 +74,22 @@
           </div>
         </div>
       </div>
+      <div class="content-wrapper d-flex gap-5 mt-5">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Tambah Transaksi</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up</p>
+            <a href="tambah_transaksi.php" class="btn btn-primary">Tambah</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Tampil transaksi</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up</p>
+            <a href="tampil_transaksi.php" class="btn btn-primary">Tambah</a>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
   </section>

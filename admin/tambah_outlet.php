@@ -17,8 +17,8 @@
     <h1>Tambah Outlet</h1>
     <form action="proses_tambah_outlet.php" method="post">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" required>
+        <label for="nama_outlet" class="form-label">Nama</label>
+        <input type="text" name="nama_outlet" class="form-control" required>
       </div>
       <div class="mb-3">
         <label for="alamat" class="form-label">alamat</label>

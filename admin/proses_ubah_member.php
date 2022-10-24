@@ -1,18 +1,18 @@
 <?php
 if ($_POST) {
   $id_member = $_POST['id_member'];
-  $nama = $_POST['nama'];
+  $nama_member = $_POST['nama_member'];
   $alamat = $_POST['alamat'];
   $jenis_kelamin = $_POST['jenis_kelamin'];
   $tlp = $_POST['tlp'];
 
-  if (empty($nama)) {
-    echo "<script>alert('nama member tidak boleh kosong');location.href='tambah_member.php';</script>";
+  if (empty($nama_member)) {
+    echo "<script>alert('nama_member member tidak boleh kosong');location.href='tambah_member.php';</script>";
   } elseif (empty($alamat)) {
     echo "<script>alert('alamat tidak boleh kosong');location.href='tambah_member.php';</script>";
   } else {
     include "../connect.php";
-    $update = mysqli_query($conn, "update member set nama='" . $nama . "', alamat='" . $alamat . "', jenis_kelamin='" . $jenis_kelamin . "', tlp='" . $tlp . "' where id_member = '" . $id_member . "'") or die(mysqli_error($conn));
+    $update = mysqli_query($conn, "update member set nama_member='" . $nama_member . "', alamat='" . $alamat . "', jenis_kelamin='" . $jenis_kelamin . "', tlp='" . $tlp . "' where id_member = '" . $id_member . "'") or die(mysqli_error($conn));
     if ($update) {
       echo "<script>alert('Sukses update member'); location.href='tampil_member.php'</script>";
     } else {

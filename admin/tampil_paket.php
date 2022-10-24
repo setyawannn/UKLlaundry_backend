@@ -34,7 +34,7 @@
           $no++; ?>
           <tr>
             <td><?= $no ?></td>
-            <td><?= $data_paket['nama'] ?></td>
+            <td><?= $data_paket['nama_outlet'] ?></td>
             <td><?= $data_paket['jenis'] ?></td>
             <td><?= $data_paket['nama_paket'] ?></td>
             <td><?= $data_paket['harga'] ?></td>

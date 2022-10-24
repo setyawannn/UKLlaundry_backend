@@ -32,7 +32,7 @@
           $no++; ?>
           <tr>
             <td><?= $no ?></td>
-            <td><?= $data_outlet['nama'] ?></td>
+            <td><?= $data_outlet['nama_outlet'] ?></td>
             <td><?= $data_outlet['alamat'] ?></td>
             <td><?= $data_outlet['tlp'] ?></td>
             <td>

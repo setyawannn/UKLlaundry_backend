@@ -24,7 +24,7 @@
           include "../connect.php";
           $qry_outlet = mysqli_query($conn, "select * from outlet");
           while ($data_outlet = mysqli_fetch_array($qry_outlet)) {
-            echo '<option value="' . $data_outlet['id_outlet'] . '">' . $data_outlet['nama'] . '</option>';
+            echo '<option value="' . $data_outlet['id_outlet'] . '">' . $data_outlet['nama_outlet'] . '</option>';
           }
           ?>
         </select>

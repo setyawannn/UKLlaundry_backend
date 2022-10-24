@@ -33,7 +33,7 @@
           $no++; ?>
           <tr>
             <td><?= $no ?></td>
-            <td><?= $data_member['nama'] ?></td>
+            <td><?= $data_member['nama_member'] ?></td>
             <td><?= $data_member['alamat'] ?></td>
             <td><?= $data_member['jenis_kelamin'] ?></td>
             <td><?= $data_member['tlp'] ?></td>

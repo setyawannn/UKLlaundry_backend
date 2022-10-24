@@ -17,8 +17,8 @@
     <h1>Tambah Member</h1>
     <form action="proses_tambah_member.php" method="post">
       <div class="mb-3">
-        <label for="nama" class="form-label">Nama</label>
-        <input type="text" name="nama" class="form-control" required>
+        <label for="nama_member" class="form-label">Nama</label>
+        <input type="text" name="nama_member" class="form-control" required>
       </div>
       <div class="mb-3">
         <label for="alamat" class="form-label">alamat</label>

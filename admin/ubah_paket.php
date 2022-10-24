@@ -33,7 +33,7 @@
             } else {
               $selek = "";
             }
-            echo '<option value="' . $data_outlet['id_outlet'] . '" ' . $selek . '>' . $data_outlet['nama'] . '</option>';
+            echo '<option value="' . $data_outlet['id_outlet'] . '" ' . $selek . '>' . $data_outlet['nama_outlet'] . '</option>';
           }
           ?>
         </select>
@@ -67,6 +67,7 @@
       <input type="submit" class="btn btn-primary mt-4 w-100" value="Tambah">
     </form>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
